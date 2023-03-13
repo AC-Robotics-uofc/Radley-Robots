@@ -1,3 +1,4 @@
+# ARC embedded Python with different conventions, including semicolons
 while(1==1):
   SpeedLeft = (getVar("$JoystickY1")*-100) - (getVar("$JoystickX1")*-100);
   SpeedRight = (getVar("$JoystickY1")*-100) + (getVar("$JoystickX1")*-100);
